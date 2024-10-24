@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.light-container {
+  height: 100vh;
+  background-size: cover;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-container {
+  height: 100vh;
+  background-size: cover;
+  background-color: black;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-heading {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.light-heading {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 20px;
+  background-color: #ffffff;
+  height: 30px;
+  width: 140px;
+}
